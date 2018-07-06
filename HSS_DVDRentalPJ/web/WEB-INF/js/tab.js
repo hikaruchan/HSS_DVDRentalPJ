@@ -28,10 +28,10 @@ function changeTab() {
    }
 
    // ▼B-3. クリックされたタブを前面に表示する
-   for(var i=0; i<tabs.length; i++) {
-      tabs[i].style.zIndex = "0";
-   }
-   this.style.zIndex = "10";
+//   for(var i=0; i<tabs.length; i++) {
+//      tabs[i].style.zIndex = "0";
+//   }
+   //this.style.zIndex = "10";
 
    // ▼B-4. ページ遷移しないようにfalseを返す
    return false;
