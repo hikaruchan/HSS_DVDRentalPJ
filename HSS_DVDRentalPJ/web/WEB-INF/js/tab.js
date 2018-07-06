@@ -31,7 +31,7 @@ function changeTab() {
 //   for(var i=0; i<tabs.length; i++) {
 //      tabs[i].style.zIndex = "0";
 //   }
-   //this.style.zIndex = "10";
+//   this.style.zIndex = "10";
 
    // ▼B-4. ページ遷移しないようにfalseを返す
    return false;
@@ -47,4 +47,4 @@ for(var i=0; i<tabs.length; i++) {
 // ---------------------------
 // ▼D：最初は先頭のタブを選択しておく
 // ---------------------------
-tabs[0].onclick();
+tabs[6].onclick();

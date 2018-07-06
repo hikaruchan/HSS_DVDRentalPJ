@@ -55,9 +55,10 @@ button{
     width: 50%;
 }
 
-.rightbox{
-    display: table;
-    
+.rightbox button{
+    margin: 6px 6px 6px 6px;
+    width: 100%;
+    height: 60px;
 }
 /* ▼タブ */
 #tabcontrol a {
